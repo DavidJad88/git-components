@@ -4,6 +4,7 @@ import AccordionItem from "./components/AccordionItem/AccordionItem";
 import Button from "./components/Button/Button";
 import Counter from "./components/Counter/Counter";
 import Input from "./components/Input/Input";
+import Spinner from "./components/Spinner/Spinner";
 
 function App() {
   return (
@@ -15,7 +16,8 @@ function App() {
         label="First Name"
         errorMessage="First Name is required"
       ></Input> */}
-      <Accordion />
+      {/* <Accordion /> */}
+      <Spinner />
     </div>
   );
 }
