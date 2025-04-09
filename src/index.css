@@ -11,7 +11,7 @@ button {
 
 :root {
   --background-color: linear-gradient(to right, #6a11cb, #2575fc);
-  --primary-Color: #f3f6f9;
+  --primary-color: #f3f6f9;
   --secondary-color: #b399d4;
   --hover-color: #8a68b4;
   --text-color: #333333;

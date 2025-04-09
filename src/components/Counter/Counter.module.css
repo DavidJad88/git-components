@@ -2,7 +2,7 @@
   width: 30%;
   height: 20%;
   min-width: 400px;
-  background-color: var(--primary-Color);
+  background-color: var(--primary-color);
   border-radius: var(--border-radius-medium);
   display: flex;
   align-items: center;
@@ -11,8 +11,9 @@
   font-family: BebasNeue-Regular, Arial, sans-serif;
   font-size: var(--large-font-size);
 }
-.increaseButton,
-.decreaseButton {
+
+.counterCard .increaseButton,
+.counterCard .decreaseButton {
   min-width: 80px;
   min-height: 80px;
   border-radius: var(--border-radius-small);
@@ -20,6 +21,9 @@
   background-color: var(--secondary-color);
   transition: 0.3s;
 }
+/* .increaseButton,
+.decreaseButton {
+} */
 .increaseButton:hover,
 .decreaseButton:hover {
   background-color: var(--hover-color);
