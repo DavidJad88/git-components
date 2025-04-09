@@ -1,4 +1,6 @@
 import styles from "./App.module.css";
+import Accordion from "./components/Accordion/Accordion";
+import AccordionItem from "./components/AccordionItem/AccordionItem";
 import Button from "./components/Button/Button";
 import Counter from "./components/Counter/Counter";
 import Input from "./components/Input/Input";
@@ -8,11 +10,12 @@ function App() {
     <div className={styles.rootContainer}>
       {/* <Button></Button> */}
       {/* <Counter /> */}
-      <Input
+      {/* <Input
         placeholder="Please Enter your first name"
         label="First Name"
         errorMessage="First Name is required"
-      ></Input>
+      ></Input> */}
+      <Accordion />
     </div>
   );
 }
